@@ -1,0 +1,13 @@
+{
+  "name": "Solr Search Query",
+  "short_name": "Solr Search",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "solr search query",
+  "content_scripts": [
+    {
+      "matches": ["http://*/solr*"],
+      "js": ["content.js"]
+    }
+  ]
+}
